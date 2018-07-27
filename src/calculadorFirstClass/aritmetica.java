@@ -10,5 +10,32 @@ package calculadorFirstClass;
  * @author alfonso
  */
 public class aritmetica {
-    
+
+    public int suma() {
+        return 0;
+    }
+
+    public int resta() {
+        return 0;
+    }
+
+    public int multiplicacion() {
+        return 0;
+    }
+
+    public int division() {
+        return 0;
+    }
+
+    public int residuo() {
+        return 0;
+    }
+
+    public int potencia() {
+        return 0;
+    }
+
+    public int raiz() {
+        return 0;
+    }
 }
