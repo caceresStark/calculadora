@@ -4,18 +4,18 @@
  * and open the template in the editor.
  */
 package calculadorFirstClass;
-
+import entornoGraficoBackend.apariencia;
 /**
  *
  * @author alfonso
  */
 public class CalculadorFirstClass {
-
+static apariencia aparienciaPrincipal = new apariencia();
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        aparienciaPrincipal.setVisible(true);
     }
     
 }
