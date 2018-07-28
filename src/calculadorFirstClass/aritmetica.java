@@ -12,7 +12,7 @@ package calculadorFirstClass;
  */
 public class aritmetica {
 
-    public int suma(int primerNumero, int segundoNumero) {
+    public double suma(double primerNumero, double segundoNumero) {
         return primerNumero + segundoNumero;
     }
 
@@ -20,26 +20,24 @@ public class aritmetica {
         return 0;
     }
 
-    public int multiplicacion(int primerNumero, int segundoNumero) {
-        return primerNumero - segundoNumero;
+    public double multiplicacion(double primerNumero, double segundoNumero) {
+        return primerNumero * segundoNumero;
     }
 
     public int division() {
         return 0;
     }
 
-    public int residuo(int numerador, int denominador) {
-
+    public double residuo(double numerador, double denominador) {
         return (numerador % denominador);
     }
 
     public int potencia() {
-
         return 0;
     }
 
-    public int raiz(int primerNumero, int segundoNumero) {
+    public double raiz(double primerNumero) {
         double raiz = Math.sqrt(primerNumero);
-        return 0;
+        return  raiz;
     }
 }
