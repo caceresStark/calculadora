@@ -9,13 +9,13 @@ import javax.swing.table.DefaultTableModel;
 /**
  * @author alfonso
  */
-public class conversiones extends javax.swing.JFrame {
+public class calculosDiscretos extends javax.swing.JFrame {
 
     private final int velocidad = 100;
     private int numero = 0;
     private final DefaultTableModel tabla = new DefaultTableModel();
 
-    public conversiones() {
+    public calculosDiscretos() {
         initComponents();
         buttonGroup1.add(jRadioButton1);
         buttonGroup1.add(jRadioButton2);
